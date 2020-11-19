@@ -1,0 +1,50 @@
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 2opx;
+}
+ 
+form{
+    margin-top : 20px ;
+    margin-left : 10px ;
+    margin-right: 200px;
+}
+ 
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+label, input, button{
+    font-size: 16px;
+    line-height: 1.5;
+}
+ 
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+ 
+input{
+    flex:auto;
+}
+ 
+button{
+    margin-left: auto;
+    background-color: lightblue;
+    width: 100px;
+    font-weight: bold;
+}
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+
